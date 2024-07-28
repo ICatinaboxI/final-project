@@ -6,12 +6,12 @@
             "cities": [
                 {
                     "name": "Sydney, Australia",
-                    "imageUrl": "enter_your_image_for_sydney.jpg",
+                    "imageUrl": "https://i1.wp.com/beautifulplacestovisit.com/wp-content/uploads/2011/07/Opera_House_with_Sydney.jpg",
                     "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
                 },
                 {
                     "name": "Melbourne, Australia",
-                    "imageUrl": "enter_your_image_for_melbourne.jpg",
+                    "imageUrl": "https://th.bing.com/th/id/OIP.65aGYUPalkqVfUC7TMA98QHaE8?rs=1&pid=ImgDetMain",
                     "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
                 }
             ]
@@ -22,12 +22,12 @@
             "cities": [
                 {
                     "name": "Tokyo, Japan",
-                    "imageUrl": "enter_your_image_for_tokyo.jpg",
+                    "imageUrl": "https://th.bing.com/th/id/R.0ab41ceeab4a0dc9a7ded8244fbb678b?rik=ugkP9UcENIanjw&pid=ImgRaw&r=0",
                     "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
                 },
                 {
                     "name": "Kyoto, Japan",
-                    "imageUrl": "enter_your_image_for_kyoto.jpg",
+                    "imageUrl": "https://a.cdn-hotels.com/gdcs/production198/d485/b83e033e-35df-4169-a967-7c849d7a7e5f.jpg",
                     "description": "Known for its historic temples, gardens, and traditional tea houses."
                 }
             ]
@@ -38,12 +38,12 @@
             "cities": [
                 {
                     "name": "Rio de Janeiro, Brazil",
-                    "imageUrl": "enter_your_image_for_rio.jpg",
+                    "imageUrl": "https://th.bing.com/th/id/OIP.ycdIMMA8sdJu_gOYgiF6ZwHaEK?rs=1&pid=ImgDetMain",
                     "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
                 },
                 {
                     "name": "São Paulo, Brazil",
-                    "imageUrl": "enter_your_image_for_sao-paulo.jpg",
+                    "imageUrl": "https://th.bing.com/th/id/R.fdc9fbd9f681be1c2ef5026005d956b2?rik=4t3ypzKif14jGA&riu=http%3a%2f%2ffoundtheworld.com%2fwp-content%2fuploads%2f2016%2f09%2fSao-Paulo-Brazil-4.jpg&ehk=a%2b%2bpVHfIm%2f4ij7593rvBSVYV3LnjuZYhbDsBmN7LWEs%3d&risl=&pid=ImgRaw&r=0",
                     "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
                 }
             ]
@@ -53,13 +53,13 @@
         {
             "id": 1,
             "name": "Angkor Wat, Cambodia",
-            "imageUrl": "enter_your_image_for_angkor-wat.jpg",
+            "imageUrl": "https://th.bing.com/th/id/OIP.JOBMGG1ttJa7qemqEn9rzQHaE7?rs=1&pid=ImgDetMain",
             "description": "A UNESCO World Heritage site and the largest religious monument in the world."
         },
         {
             "id": 2,
             "name": "Taj Mahal, India",
-            "imageUrl": "enter_your_image_for_taj-mahal.jpg",
+            "imageUrl": "https://th.bing.com/th/id/OIP.MNd02FVHCBVYfL0rS9DtDgHaE7?rs=1&pid=ImgDetMain",
             "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
         }
     ],
@@ -67,13 +67,13 @@
         {
             "id": 1,
             "name": "Bora Bora, French Polynesia",
-            "imageUrl": "enter_your_image_for_bora-bora.jpg",
+            "imageUrl": "https://th.bing.com/th/id/R.70865d6a69c9adc5b3a243a372b54473?rik=ZKrhet%2f1zTUu5g&pid=ImgRaw&r=0",
             "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
         },
         {
             "id": 2,
             "name": "Copacabana Beach, Brazil",
-            "imageUrl": "enter_your_image_for_copacabana.jpg",
+            "imageUrl": "https://th.bing.com/th/id/OIP.uHTHvHJIxGQJ9ajkv_YhDQHaE8?rs=1&pid=ImgDetMain",
             "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
         }
     ]
