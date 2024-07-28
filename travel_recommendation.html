@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Recommendations</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://th.bing.com/th/id/R.3456fc8acfdfe3c8a6065dce63fea2f9?rik=hTBCttDvMIT6%2fw&pid=ImgRaw&r=0');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            padding: 12px 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        nav button {
+            background-color: #fff;
+            color: #333;
+            border: none;
+            padding: 10px 16px;
+            font-size: 14px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-left: 5px;
+        }
+
+        nav input[type=text] {
+            padding: 10px;
+            border: none;
+            font-size: 14px;
+            width: 200px;
+            margin-left: 10px;
+        }
+
+        nav .button-group {
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        /* Hero section styles */
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            position: relative;
+            z-index: 0;
+            padding: 100px 20px;
+        }
+
+        .block {
+            display: flex;
+            align-items: left;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .title-description {
+            padding: 20px;
+            margin-right: 20px;
+            flex-grow: 1;
+            text-align: left;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+
+        .title-description h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        .title-description p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .title-description p:last-child {
+            font-size: 18px;
+            margin-bottom: 0;
+        }
+
+        .additional-content {
+            padding: 20px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            margin-left: 20px;
+        }
+
+        .additional-content h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="travel_recommendation.html">Home</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="contactUs.html">Contact Us</a>
+        <div class="button-group">
+            <button id="btnSearch">Search</button>
+            <button id="btnClear">Clear</button>
+            <input type="text" id="conditionInput" placeholder="Search for recommendations...">
+        </div>
+    </nav>
+
+    <div class="hero-section">
+        <div class="block">
+            <div class="title-description">
+                <h1>Welcome to Travel Recommendations</h1>
+                <p>Discover the best destinations and plan your next adventure with our curated travel recommendations.</p>
+                <p>Explore a wide range of destinations, from bustling cities to serene natural wonders, and find the perfect fit for your travel preferences.</p>
+            </div>
+            <div class="additional-content" id="results">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
